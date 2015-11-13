@@ -12,4 +12,7 @@ struct RNG_t{
 
 #define RNG_reg	((Rng*)0x50060800)
 
+void rngEnable();
+int readRandomData();
+
 #endif // __RNG_H__

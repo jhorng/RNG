@@ -11,17 +11,11 @@ void delay(uint32_t delayCount){
 }
 
 int main(){
-	int b;
-	int32_t a=0;
-	//__HAL_RCC_USB_OTG_FS_CLK_ENABLE();
-	//__HAL_RCC_RNG_CLK_ENABLE();
+	int32_t randNum=0;
 	rngUnresetEnableClock();
 	rngEnable();
-	b = RNG_reg->RNG_SR;
+
 	while(1){
-	//	delay(5000);
-		//b = RNG_reg->RNG_SR;
-	//	if (b == 0x00000001)
-			a = RNG_reg->RNG_DR;
+		randNum = readRandomData();
 	}
 }

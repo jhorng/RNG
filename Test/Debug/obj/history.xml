@@ -1,28 +1,28 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <history>
-   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F429ZI -DSTM32F429xx -I..\..\..\..\..\..\..\CoIDE\workspace\STM32F429ZI_Template\app -I..\..\..\..\..\..\..\CoIDE\workspace -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS\Include -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers -I..\..\..\..\..\..\..\CoIDE\workspace\STM32F429ZI_Template -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc">
-      <target file="stm32f4xx_hal_cortex.o" lastModified="150dbdef48a">
+   <processor signature="arm-none-eabi-gcc 4.8.1 mingw32 -mcpu=cortex-m4 -mthumb -g2 -Wall -O0 -c -DSTM32F429ZI -DSTM32F429xx -DSTM32F429_439xx -I..\..\..\..\..\..\..\CoIDE\workspace\STM32F429ZI_Template\app -I..\..\..\..\..\..\..\CoIDE\workspace -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS\Include -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\CMSIS -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers -I..\..\..\..\..\..\..\CoIDE\workspace\STM32F429ZI_Template -I..\..\..\..\..\..\..\CoIDE\workspace\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Inc">
+      <target file="stm32f4xx_hal_cortex.o" lastModified="150ffde8b6d">
          <source file="..\..\..\..\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c" lastModified="14c0ebff760"/>
       </target>
-      <target file="stm32f4xx_hal_rng.o" lastModified="150dc1dbad4">
+      <target file="stm32f4xx_hal_rng.o" lastModified="150ffde8851">
          <source file="..\..\..\..\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rng.c" lastModified="14c0ebff760"/>
       </target>
-      <target file="RCC.o" lastModified="150dbef887a">
-         <source file="..\..\..\app\RCC.c" lastModified="150dbef837a"/>
+      <target file="RCC.o" lastModified="150ffde893b">
+         <source file="..\..\..\app\RCC.c" lastModified="150ffbe1c4d"/>
       </target>
-      <target file="system_stm32f4xx.o" lastModified="150dbdef65e">
-         <source file="..\..\..\app\system_stm32f4xx.c" lastModified="150936082f7"/>
+      <target file="system_stm32f4xx.o" lastModified="150ffde8bea">
+         <source file="..\..\..\app\system_stm32f4xx.c" lastModified="150ffab5892"/>
       </target>
-      <target file="stm32f4xx_hal_rcc.o" lastModified="150dc1dbc98">
+      <target file="stm32f4xx_hal_rcc.o" lastModified="150ffde8a83">
          <source file="..\..\..\..\STM32Cube_FW_F4_V1.5.0\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c" lastModified="14c0ebff760"/>
       </target>
-      <target file="main.o" lastModified="150dc2e712b">
-         <source file="..\..\..\app\main.c" lastModified="150dc2e6d83"/>
+      <target file="main.o" lastModified="150ffdf9785">
+         <source file="..\..\..\app\main.c" lastModified="150ffdf93be"/>
       </target>
-      <target file="RNG.o" lastModified="150dbe3e47d">
-         <source file="..\..\..\app\RNG.c" lastModified="150dbe3cc6a"/>
+      <target file="RNG.o" lastModified="150ffde8c38">
+         <source file="..\..\..\app\RNG.c" lastModified="150ffdd5956"/>
       </target>
-      <target file="startup_stm32f429xx.o" lastModified="150dbdef217">
+      <target file="startup_stm32f429xx.o" lastModified="150ffde896a">
          <source file="..\..\..\app\startup_stm32f429xx.s" lastModified="150936082d7"/>
       </target>
    </processor>
