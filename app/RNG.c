@@ -1,7 +1,8 @@
 #include "RNG.h"
 
 void rngEnable(){
-	RNG_reg->RNG_CR |= 0x00000004;
+	RNG_reg->RNG_CR |= (1<<2); // RNGEN = 1
+	RNG_reg->RNG_CR |= (1<<3); // IE = 1
 }
 
 int readRandomData(){
@@ -15,4 +16,10 @@ int readRandomData(){
 	}
 
 	return data_reg;
+}
+
+int resetSeedRng(){
+  if((RNG_reg->RNG_SR) == 0x44){
+    RNG_reg->RNG_SR = ~(1<<6);
+  }
 }

@@ -14,5 +14,6 @@ struct RNG_t{
 
 void rngEnable();
 int readRandomData();
+int resetSeedRng();
 
 #endif // __RNG_H__
